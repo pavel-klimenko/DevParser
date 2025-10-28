@@ -1,0 +1,16 @@
+parameters:
+    locale: 'en'
+
+services:
+    Root\App\Command\ParseCsvCommand:
+        tags: [ 'console.command' ]
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+
+    _defaults:
+        autowire: true
+        autoconfigure: true
