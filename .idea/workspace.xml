@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a227591-3756-4295-ad4c-7879c7e18d50" name="Changes" comment="Added test modules with their own configs">
-      <change afterPath="$PROJECT_DIR$/.idea/DevParser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414/storage_v2/_src_/schema/importTest.19Gsfg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f889a2cd-90b2-426e-9be9-8e1880196e7d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f889a2cd-90b2-426e-9be9-8e1880196e7d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/module_one/src/Domain/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/module_one/src/Domain/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/module_two/src/Domain/Entity/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/module_two/src/Domain/Repository/ProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20251202131947.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php/Fpm.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/Fpm.Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.dist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.dist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+    <list default="true" id="1a227591-3756-4295-ad4c-7879c7e18d50" name="Changes" comment="Added doctrine configs for several Domain folders">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761675065343</updated>
       <workItem from="1761675067044" duration="2873000" />
-      <workItem from="1764666593933" duration="14178000" />
+      <workItem from="1764666593933" duration="15779000" />
     </task>
     <task id="LOCAL-00001" summary="Added test modules with their own configs">
       <option name="closed" value="true" />
@@ -259,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764674040442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added doctrine configs for several Domain folders">
+      <option name="closed" value="true" />
+      <created>1764681762690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764681762690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +252,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added test modules with their own configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test modules with their own configs" />
+    <MESSAGE value="Added doctrine configs for several Domain folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added doctrine configs for several Domain folders" />
   </component>
 </project>
