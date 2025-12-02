@@ -1,0 +1,11 @@
+services:
+  Modules\module_one\src\Controller\:
+    resource: '../src/Controller'
+    autowire: true
+    autoconfigure: true
+    public: true
+  Modules\module_one\src\Service\:
+    resource: '../src/Service'
+    autowire: true
+    autoconfigure: true
+    public: true

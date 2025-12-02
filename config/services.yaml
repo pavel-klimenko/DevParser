@@ -1,16 +1,16 @@
-parameters:
-    locale: 'en'
+imports:
+  - { resource: '../Modules/module_one/config/module_one_services.yaml' }
+  - { resource: '../Modules/module_two/config/module_two_services.yaml' }
 
 services:
-    Root\App\Command\ParseCsvCommand:
-        tags: [ 'console.command' ]
-    App\:
-        resource: '../src/'
-        exclude:
-            - '../src/DependencyInjection/'
-            - '../src/Entity/'
-            - '../src/Kernel.php'
+  App\Controller\:
+    resource: '../src/Controller'
+    tags: ['controller.service_arguments']
 
-    _defaults:
-        autowire: true
-        autoconfigure: true
+  App\Controller\DemoController:
+    autowire: true
+    autoconfigure: true
+    public: true
+  # сервисы вручную
+  App\Service\GreetingService:
+    public: true
