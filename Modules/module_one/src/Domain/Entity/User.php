@@ -35,14 +35,14 @@ class User
         return $this;
     }
 
-    public function getLastName(): ?string
-    {
-        return $this->lastName;
-    }
-
-    public function setLastName(string $lastName): self
-    {
-        $this->lastName = $lastName;
-        return $this;
-    }
+//    public function getLastName(): ?string
+//    {
+//        return $this->lastName;
+//    }
+//
+//    public function setLastName(string $lastName): self
+//    {
+//        $this->lastName = $lastName;
+//        return $this;
+//    }
 }

@@ -1,0 +1,9 @@
+doctrine:
+  orm:
+      mappings:
+        ModuleOne:
+          is_bundle: false
+          type: attribute
+          dir: '%kernel.project_dir%/Modules/module_one/src/Domain/Entity'
+          prefix: 'Modules\module_one\src\Domain\Entity'
+          alias: ModuleOne

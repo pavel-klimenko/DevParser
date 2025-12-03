@@ -1,3 +1,7 @@
+imports:
+  - { resource: '../../Modules/module_one/config/doctrine.yaml' }
+  - { resource: '../../Modules/module_two/config/doctrine.yaml' }
+
 doctrine:
     dbal:
         default_table_options:
@@ -25,20 +29,7 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
         identity_generation_preferences:
             Doctrine\DBAL\Platforms\PostgreSQLPlatform: identity
-        auto_mapping: true
-        mappings:
-          ModuleOne:
-            is_bundle: false
-            type: attribute
-            dir: '%kernel.project_dir%/Modules/module_one/src/Domain/Entity'
-            prefix: 'Modules\module_one\src\Domain\Entity'
-            alias: ModuleOne
-          ModuleTwo:
-            is_bundle: false
-            type: attribute
-            dir: '%kernel.project_dir%/Modules/module_two/src/Domain/Entity'
-            prefix: 'Modules\module_two\src\Domain\Entity'
-            alias: ModuleTwo
+#        auto_mapping: true
 
 #when@test:
 #    doctrine:

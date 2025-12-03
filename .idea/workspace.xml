@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a227591-3756-4295-ad4c-7879c7e18d50" name="Changes" comment="Added doctrine configs for several Domain folders">
+    <list default="true" id="1a227591-3756-4295-ad4c-7879c7e18d50" name="Changes" comment="implemented Glob approach">
+      <change afterPath="$PROJECT_DIR$/Modules/module_one/config/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/module_two/config/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414/storage_v2/_src_/schema/importTest.19Gsfg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91290bbe-8ee8-4e35-b5b9-4a2bad7e8414/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/module_one/src/Domain/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/module_one/src/Domain/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20251202131947.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pavel-klimenko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pavel-klimenko&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pavel-klimenko/DevParser",
-    "accountId": "5fe80566-2b0a-4df9-8719-f1e9e4d0cfa3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pavel-klimenko/DevParser&quot;,
+    &quot;accountId&quot;: &quot;5fe80566-2b0a-4df9-8719-f1e9e4d0cfa3&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
@@ -180,7 +188,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/pavel/PhpStormProjects/Modules/module_two/src",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/pavel/PhpStormProjects/Modules/module_two/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -196,11 +204,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\Modules\module_two\config" />
       <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\Modules\module_two\src" />
       <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\Modules\module_one\config" />
       <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\src\Modules\module_two\config" />
       <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\src\Modules\module_one\config" />
-      <recent name="\\wsl.localhost\Ubuntu\home\pavel\PhpStormProjects\src\Modules" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,7 +234,8 @@
       <option name="presentableId" value="Default" />
       <updated>1761675065343</updated>
       <workItem from="1761675067044" duration="2873000" />
-      <workItem from="1764666593933" duration="15779000" />
+      <workItem from="1764666593933" duration="17738000" />
+      <workItem from="1764742503728" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="Added test modules with their own configs">
       <option name="closed" value="true" />
@@ -244,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764681762690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented Glob approach">
+      <option name="closed" value="true" />
+      <created>1764684957232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764684957232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +270,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added test modules with their own configs" />
     <MESSAGE value="Added doctrine configs for several Domain folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added doctrine configs for several Domain folders" />
+    <MESSAGE value="implemented Glob approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Glob approach" />
   </component>
 </project>
