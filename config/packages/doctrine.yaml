@@ -1,6 +1,5 @@
 imports:
-  - { resource: '../../Modules/module_one/config/doctrine.yaml' }
-  - { resource: '../../Modules/module_two/config/doctrine.yaml' }
+  - { resource: '../../Modules/*/config/doctrine.yaml' }
 
 doctrine:
     dbal:

@@ -1,5 +1,5 @@
 imports:
-  - { resource: '../Modules/*/config/*_services.yaml' }
+  - { resource: '../Modules/*/config/services.yaml' }
 
 services:
   App\Controller\:
