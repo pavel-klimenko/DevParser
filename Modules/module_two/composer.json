@@ -4,8 +4,5 @@
     "psr-4": {
       "Modules\\module_two\\": "src/"
     }
-  },
-  "require": {
-    "doctrine/orm": "^3.3"
   }
 }
