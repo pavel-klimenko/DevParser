@@ -1,0 +1,11 @@
+{
+  "name": "modules/module_one",
+  "autoload": {
+    "psr-4": {
+      "Modules\\module_one\\": "src/"
+    }
+  },
+  "require": {
+    "doctrine/orm": "^3.3"
+  }
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\module_two\src\Service;
+namespace Modules\module_two\Service;
 
 class ModuleTwoService
 {

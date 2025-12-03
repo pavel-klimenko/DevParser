@@ -1,10 +1,10 @@
 services:
-  Modules\module_two\src\Controller\:
+  Modules\module_two\Controller\:
     resource: '../src/Controller'
     autowire: true
     autoconfigure: true
     public: true
-  Modules\module_two\src\Service\:
+  Modules\module_two\Service\:
     resource: '../src/Service'
     autowire: true
     autoconfigure: true

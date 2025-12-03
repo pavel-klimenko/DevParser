@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\module_one\src\Controller;
+namespace Modules\module_one\Controller;
 
-use Modules\module_one\src\Service\ModuleOneService;
+use Modules\module_one\Service\ModuleOneService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
